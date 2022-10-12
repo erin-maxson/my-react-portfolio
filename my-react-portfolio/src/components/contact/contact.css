@@ -1,8 +1,11 @@
 .container.contact_container {
-    width: 58%;
+    margin: 100px auto 0px auto;
+    padding: 230px;
+    width: 60%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    background-image: url(../../assets/background.png);
 }
 
 .contact_options {
@@ -12,7 +15,7 @@
 }
 
 .contact_option {
-    background: var(--color-bg-variant);
+    background: var(--color-light);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -21,7 +24,7 @@
 }
 
 .contact_option:hover {
-    background: transparent;
+    background: var(--color-primary-variant);
     border-color: var(--color-primary-variant);
 }
 
@@ -43,7 +46,7 @@ input, textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid var(--color-primary);
     resize: none;
     color: var(--color-black);
 }
