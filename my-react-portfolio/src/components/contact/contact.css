@@ -1,7 +1,6 @@
 .container.contact_container {
     margin: 100px auto 0px auto;
     padding: 230px;
-    width: 60%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;

@@ -1,6 +1,6 @@
 .portfolio_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.3fr);
     gap: 2.5rem;
     padding: 0px;
 }
@@ -13,7 +13,6 @@ article.portfolio_item {
     transition: var(--transition);
     color: var(--color-white);
     align-content: center;
-    height: 500px;
 }
 
 .portfolio_item-image {
