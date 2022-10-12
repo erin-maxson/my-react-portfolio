@@ -12,10 +12,10 @@
 
 /* general css variables for colors and container widths */
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-bg: #A08946;
+  --color-bg-variant: #BDA254;
+  --color-primary: #F39200;
+  --color-primary-variant: #FFAF00;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -30,6 +30,8 @@
 }
 
 body {
-  font-family: Work Sans', sans-serif;
-  ;
+  font-family: "Work Sans", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
 }
