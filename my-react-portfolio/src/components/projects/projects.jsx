@@ -10,56 +10,74 @@ import IMG6 from '../../assets/tech blog.png'
 const Projects = () => {
   return (
     <section id="Projects">
-      <h4>My Projects</h4>
+      <h2>My Projects</h2>
       <div className='container portfolio_container'>
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is a portfolio item</h3>
-          <a href="#" className='btn'>See Github Repo</a>
+          <h3>Local Pet</h3>
+          <h4>A dog and cat adoption search website.</h4>
+          <div className='portfolio_item-cta'>
+            <a href="#" className='btn'>See Github Repo</a>
+          </div>
         </article>
 
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
-          <img src={IMG2} alt="" />
+            <img src={IMG2} alt="" />
           </div>
-          <h3>This is a portfolio item</h3>
-          <a href="#" className='btn'>See Github Repo</a>
+          <h3>HTML + CSS Portfolio</h3>
+          <h4>A quick portfolio made in my early days of coding.</h4>
+          <div className='portfolio_item-cta'>
+            <a href="#" className='btn'>See Github Repo</a>
+          </div>
         </article>
 
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
-          <img src={IMG3} alt="" />
+            <img src={IMG3} alt="" />
           </div>
-          <h3>This is a portfolio item</h3>
-          <a href="#" className='btn'>See Github Repo</a>
+          <h3>PWA Text Editor</h3>
+          <h4>An offline text editor for on-the-go coders.</h4>
+          <div className='portfolio_item-cta'>
+            <a href="#" className='btn'>See Github Repo</a>
+          </div>
         </article>
 
 
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
-          <img src={IMG4} alt="" />
+            <img src={IMG4} alt="" />
           </div>
-          <h3>This is a portfolio item</h3>
-          <a href="#" className='btn'>See Github Repo</a>
-        </article>
+          <h3>Random Password Generator</h3>
+          <h4>Generate random passwords with just a few clicks.</h4>
+          <div className='portfolio_item-cta'>
+            <a href="#" className='btn'>See Github Repo</a>
+          </div>
+          </article>
 
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
-          <img src={IMG5} alt="" />
+            <img src={IMG5} alt="" />
           </div>
-          <h3>This is a portfolio item</h3>
-          <a href="#" className='btn'>See Github Repo</a>
-        </article>
+          <h3>Coder's Almanac</h3>
+          <h4>A digital seed library made for the tech-savvy.</h4>
+          <div className='portfolio_item-cta'>
+            <a href="#" className='btn'>See Github Repo</a>
+          </div>
+          </article>
 
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
-          <img src={IMG6} alt="" />
+            <img src={IMG6} alt="" />
           </div>
-          <h3>This is a portfolio item</h3>
-          <a href="#" className='btn'>See Github Repo</a>
-        </article>
+          <h3>Tech Blog</h3>
+          <h4>A blog to find things related to technology.</h4>
+          <div className='portfolio_item-cta'>
+            <a href="#" className='btn'>See Github Repo</a>
+          </div>
+          </article>
       </div>
     </section>
   )
