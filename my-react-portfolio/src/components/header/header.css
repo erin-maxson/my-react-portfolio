@@ -1,7 +1,10 @@
 header {
-    height: 100vh;
+    height: 95vh;
     padding-top: 7rem;
+    margin: 0px;
     overflow: hidden;
+    background-image: url(../../assets/background2.png);
+    color: black;
 }
 
 .header_container {
@@ -17,7 +20,7 @@ header {
     align-items: center;
     gap: 0.8 rem;
     position: absolute;
-    left: 0;
+    left: 200px;
     bottom: 3rem;
 }
 
