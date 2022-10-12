@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,7 @@
   text-decoration: none;
 }
 
+/* general css variables for colors and container widths */
 :root {
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
@@ -19,4 +22,14 @@
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
+}
+
+/* scroll/nav bar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: Work Sans', sans-serif;
+  ;
 }
