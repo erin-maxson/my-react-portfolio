@@ -8,7 +8,7 @@ import {RiMessage2Fill} from 'react-icons/ri'
 const Nav = () => {
   return (
     <nav>
-      <a href="#"><IoHome/></a>
+      <a href="#" className='active'><IoHome/></a>
       <a href="#About"><BsFillPersonFill/></a>
       <a href="#Projects"><AiFillFolderOpen/></a>
       <a href="#Contact"><RiMessage2Fill/></a>
