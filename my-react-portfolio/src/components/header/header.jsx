@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import Headshot from '../../assets/Erin-Headshot.JPG'
+import Headshot from '../../assets/erin.jpg'
 import HeadshotSocials from './HeaderSocials'
 import HeaderSocials from './HeaderSocials'
 
@@ -14,7 +14,7 @@ const Header = () => {
         <HeaderSocials />
 
         <div className="me">
-          <img src="{Headshot}" alt="Erin's Headshot" />
+          <img src={Headshot} alt="Erin's Headshot" />
         </div>
 
       <a href="#contact" className='scroll_down'>Scroll Down</a>
