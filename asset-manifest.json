@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.f7962507.css",
+    "main.js": "/my-react-portfolio/static/js/main.4b3c96e3.js",
+    "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
+    "static/media/coders almanac.png": "/my-react-portfolio/static/media/coders almanac.04b84101bee841d87460.png",
+    "static/media/tech blog.png": "/my-react-portfolio/static/media/tech blog.eddfe93e1d854ac2044c.png",
+    "static/media/adoption search.png": "/my-react-portfolio/static/media/adoption search.a8d53a78b7a7205b6ff0.png",
+    "static/media/team.JPG": "/my-react-portfolio/static/media/team.dceec16b7a1917643e5f.JPG",
+    "static/media/html portfolio.png": "/my-react-portfolio/static/media/html portfolio.36f80a2da45d44085e8a.png",
+    "static/media/erin.jpg": "/my-react-portfolio/static/media/erin.933cdbb6d8b6a6b78837.jpg",
+    "static/media/password generator.png": "/my-react-portfolio/static/media/password generator.ac11d1918bbb3b27596d.png",
+    "static/media/pwa text editor.png": "/my-react-portfolio/static/media/pwa text editor.55c8b8abb7f87266a6d4.png",
+    "static/media/background2.png": "/my-react-portfolio/static/media/background2.bd077ff098e7af06d043.png",
+    "static/media/background.png": "/my-react-portfolio/static/media/background.ac2b3765f2738ed3e78f.png",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.f7962507.css.map": "/my-react-portfolio/static/css/main.f7962507.css.map",
+    "main.4b3c96e3.js.map": "/my-react-portfolio/static/js/main.4b3c96e3.js.map",
+    "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7962507.css",
+    "static/js/main.4b3c96e3.js"
+  ]
+}
